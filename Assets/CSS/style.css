@@ -58,6 +58,7 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
+/* Added centered text and different background color/text color  */
 .header-container{
   text-align: center;
   background-color: navy;

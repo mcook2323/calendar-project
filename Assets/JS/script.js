@@ -22,6 +22,7 @@ timeBlocks.forEach(timeBlock => {
   }
 })
   
+// function to change the timeblock colors according to the time of day
 
   function changeTimeBlockColor(){
     let currentHour = dayjs().hour();
@@ -47,9 +48,11 @@ timeBlocks.forEach(timeBlock => {
   
 
   changeTimeBlockColor();
+// setInterval to updated the timeblockColor every minute
 
   setInterval(changeTimeBlockColor, 60000); 
 
+//function to display the live time at the top of the page
 
 function displayTime(){
   let currentTimeEl = document.getElementById('currentDay')
